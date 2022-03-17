@@ -1,6 +1,7 @@
 /out/
 .idea/
 /catshop.db/
+derby.log
 Thumbs.db
 .DS_Store
 
