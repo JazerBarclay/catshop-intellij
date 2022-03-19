@@ -1,7 +1,8 @@
-/out/
-.idea/
+/bin/
 /catshop.db/
-derby.log
-Thumbs.db
+/catshop.jar
+/setup.jar
+/derby.log
 .DS_Store
-
+Thumbs.db
+.idea
