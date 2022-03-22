@@ -12,7 +12,7 @@
 # CATSHOP the clients pile up in the top left corner of the screeen - something you
 # could try and fix? (How does CATSHOP-in-one version manage them?)
 
-./cat_defs.sh
+. cat_defs.sh
 echo Run the distributed version: Networking to localhost
 echo "Hit <enter> to start clients once server is running"
 java -cp "${CP_CATSHOP}" middle/Server &

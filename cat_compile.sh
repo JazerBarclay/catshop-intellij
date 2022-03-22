@@ -5,7 +5,7 @@
 # Note: if you add new clients to catshop, you need to add them to the list
 # of files to compile here
 
-./cat_defs.sh
+. cat_defs.sh
 
 # compiler configuration options
 DEPRECATED=
@@ -27,7 +27,7 @@ javac  ${DEPRECATED} ${FLAGS} -cp "${CP_JUNIT5}" \
 	clients/*.java \
 	remote/*.java \
 	debug/*.java \
-	clients/backDoor/*.java \
+	clients/backdoor/*.java \
 	clients/cashier/*.java \
 	clients/collection/*.java \
 	clients/customer/*.java \

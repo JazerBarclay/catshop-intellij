@@ -5,6 +5,6 @@
 # (though it doesn't make sense to run this from Jenkins, because it is interactive)
 # It assumes the database has been setup already (eg with cat_database.sh)
 
-./cat_defs.sh
+. cat_defs.sh
 
 java -cp "${CP_CATSHOP}" clients/Main

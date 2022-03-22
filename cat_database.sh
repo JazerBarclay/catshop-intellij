@@ -7,7 +7,7 @@
 # database configuration is (derby, or a remote sql service)
 # (You could extend the jenkins pipleine to test this too)
 
-./cat_defs.sh
+. cat_defs.sh
 
 echo set up the CatShop database
 

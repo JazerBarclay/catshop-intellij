@@ -11,7 +11,7 @@
 # You could write another script and a Jenkins pipleine task to test running 
 # CatShop from the jar file(s) instead of the main directory
 
-./cat_defs.sh
+. cat_defs.sh
 
 jar cfm  catshop.jar \
 	Manifest.MF \
